@@ -14,7 +14,7 @@
 }
 /* 1366*569 */
 .hero-section {
-  background-image: url(./img/main-hero-img-1.jpg);
+  background-image: url(../img/main-hero-img-1.jpg);
   height: calc(100vh - 68px);
   /* height: 100vh; */
   background-position: center;
