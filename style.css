@@ -7,14 +7,23 @@
   /* height: 70vh; */
   height: calc(100vh - 56px);
 }
+.navbar{
+    background-color: #817b7b;
+}
+a{
+  text-decoration: none;
+}
 
 .navbar-brand img {
   width: 100%;
   /* mix-blend-mode: lighten; */
 }
 /* 1366*569 */
+.hero-section a{
+  color: #FFF ;
+}
 .hero-section {
-  background-image: url(../img/main-hero-img-1.jpg);
+  background-image: url(./img/main-hero-img-1.webp);
   height: calc(100vh - 68px);
   /* height: 100vh; */
   background-position: center;
@@ -28,9 +37,109 @@
 .hero-section .hero-text-box {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: end;
   height: 100%;
 }
 .hero-section .hero-text-box h1 {
     color: #FFF;
+    margin:0 -11rem 15rem 0;
+
+}
+.hero-section .hero-text-box p{
+  font-size: 24px;
+  color: #FFF;
+  margin: 0 8rem 8rem -7rem;
+
+}
+.btn{
+    color: aqua;
+    border: 2px solid darkred;
+    /* background-color: transparent; */
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 40px;
+}
+.btn:hover{
+    background-color: #817b7b;
+    border: 2px solid darkred;
+    color:#FFF;
+    /* padding-top: 5px; */
+}
+
+
+.main-section {
+  background-image: url(./img/main-section-img.jpg);
+  height: 100vh;
+  /* height: 100vh; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-section a{
+  color: #FFF;
+}
+.main-section .main-text-box {
+  height: 100%;
+}
+.main-section .main-text-box h1 {
+  color: #FFF;
+}
+.main-section .main-text-box p{
+  font-size: 24px;
+  color: #FFF;
+}
+
+.Service-section .container a{
+  color: #FFF;
+}
+.Service-section a:hover{
+  color: brown;
+}
+.Service-section {
+  display: flex;
+  height: 30vh;
+  background: #929f86;
+  /* flex-direction: row; */
+  /* justify-content: space-between; */
+  align-items: center;
+  font-size: 45px;
+  padding-left: 4em;
+}
+.Service-section .ion-icon{
+
+}
+footer{
+  height: 52vh;
+  background-color: #817b7b;
+  padding-top: 20px;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin-top:20px; */
+}
+form input{
+  margin: 10px;
+}
+footer .Socia{
+  font-size: 35px;
+  display: flex;
+  margin-left: -3em;
+}
+.Socia a{
+  color: black;
+}
+.Socia a:hover{
+  color: #e3bd7c;
+}
+.si-1, .si-2, .si-2, .si-3, .si-4, .si-5 {
+  padding: 7rem 6rem 0px 0rem;
+  display: flex;
+  /* flex-direction: column; */
+  /* align-items: flex-end; */
+  /* margin:0em 0 0 4em ; */
 }
