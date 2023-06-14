@@ -42,13 +42,13 @@ a{
 }
 .hero-section .hero-text-box h1 {
     color: #FFF;
-    margin:0 -11rem 15rem 0;
+    margin:0 -7rem 15rem 0;
 
 }
 .hero-section .hero-text-box p{
   font-size: 24px;
   color: #FFF;
-  margin: 0 8rem 8rem -7rem;
+  margin: 0 0rem 8rem -7rem;
 
 }
 .btn{
@@ -57,6 +57,14 @@ a{
     /* background-color: transparent; */
     font-size: 20px;
     padding: 10px 20px;
+    border-radius: 40px;
+}
+.btn-sm{
+  color: aqua;
+    border: 2px solid darkred;
+    /* background-color: transparent; */
+    font-size: 13px;
+    padding: 4px 8px;
     border-radius: 40px;
 }
 .btn:hover{
@@ -106,13 +114,12 @@ a{
   /* justify-content: space-between; */
   align-items: center;
   font-size: 45px;
-  padding-left: 4em;
 }
 .Service-section .ion-icon{
 
 }
 footer{
-  height: 52vh;
+  height: 100%;
   background-color: #817b7b;
   padding-top: 20px;
 }
@@ -142,4 +149,33 @@ footer .Socia{
   /* flex-direction: column; */
   /* align-items: flex-end; */
   /* margin:0em 0 0 4em ; */
+}
+button, input, optgroup, select, textarea {
+  margin: 0;
+  font-family: inherit;
+  /* font-size: inherit; */
+  /* line-height: inherit; */
+}
+
+@media (max-width:768px) {
+  .si-1, .si-2, .si-2, .si-3, .si-4, .si-5 {
+    padding: 7rem 1rem 0px 0rem;
+    display: flex;
+  }
+  footer .Socia {
+    margin: 0;
+  }
+  
+}
+@media (max-width:448px) {
+  .Service-section{
+    text-align: center;
+    height: 100%;
+  }
+  footer .Socia {
+    margin: -3rem 3rem 3rem 3rem;
+  }
+  footer{
+    text-align: center;
+  }
 }
